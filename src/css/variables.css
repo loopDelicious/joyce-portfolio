@@ -5,5 +5,10 @@
     --contrast: #280187;
     --light-text: #FFFDE6;
 
+    /* typography */
+
+    --main-font: "Verdana", "Helvetica Neue", sans-serif;
 
 }
+
+

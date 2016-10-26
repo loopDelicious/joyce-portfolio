@@ -4,13 +4,13 @@ class Navigation extends Component {
     render() {
         return (
             <div className="navbar">
-                <a className="brand" href="/">joyce</a>
+                <a className="brand" href="/">Joyce Lin</a>
 
                     <ul className="right-nav">
-                        <li><a href="#about">about</a></li>
-                        <li><a href="#tech">tech</a></li>
-                        <li><a href="#projects">projects</a></li>
-                        <li><a href="#contact">contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#tech">Tech</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
             </div>
         )

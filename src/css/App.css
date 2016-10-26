@@ -1,24 +1,84 @@
 .App {
-  text-align: center;
+    text-align: left;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.section {
+    margin: 40px 0;
+    padding: 0 40px;
+    clear: both;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+/* INTRO section */
+
+#intro {
+    background: url(../img/coitus.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: var(--light-text);
 }
 
-.App-intro {
-  font-size: large;
+#intro h1 {
+    margin-top: 60px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.banner-social-buttons {
+
+}
+
+.banner-social-buttons > li {
+    list-style-type: none;
+    width: 125px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner-social-buttons > li > .fa {
+    float: left;
+}
+
+.banner-social-buttons > li > span {
+    float: right;
+}
+
+
+/* ABOUT section */
+
+#portrait {
+    width: 50vw;
+    float: right;
+    margin: 15px;
+}
+
+/* TECH section */
+
+#tech {
+    background-color: var(--secondary-color);
+}
+#robotic {
+    width: 50vw;
+    float: left;
+}
+
+/* PROJECTS section */
+
+/* CONTACT section */
+
+#contact {
+    background: url(../img/raindrops.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 350px;
+    text-align: left;
+    align-items: center;
+    color: var(--light-text);
+    display: flex;
+}
+
+#contact > h2 {
+    width: 50vw;
+    text-shadow: 1px 1px var(--tertiary-color);
 }
