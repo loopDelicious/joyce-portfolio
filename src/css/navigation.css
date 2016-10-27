@@ -1,15 +1,27 @@
 .navbar {
-    height: 35px;
+    height: 40px;
     width: 100%;
     padding: 5px;
+    background-color: var(--light-text);
+    position: fixed;
+    margin-bottom: 0;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+    z-index: 999;
+}
+.navbar > a:visited {
+    color: var(--main-color);
+}
+
+.navbar > a:hover {
     background: none;
 }
 
 .brand {
-    font-size: 30px;
-    color: var(--light-text);
+    font-size: 25px;
+    color: var(--main-color);
     float: left;
-    margin: 10px 20px;
+    margin: 0 20px;
 }
 
 .right-nav {
@@ -22,5 +34,6 @@
     font-size: 16px;
     float: left;
     margin: 10px;
+    color: var(--light-text);
 
 }

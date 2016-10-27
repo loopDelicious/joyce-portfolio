@@ -3,11 +3,12 @@
     --secondary-color: #877F0F;
     --tertiary-color: #B8ADD4;
     --contrast: #280187;
-    --light-text: #FFFDE6;
+    --light-text: whitesmoke;
+    --dark: #191919;
 
     /* typography */
 
-    --main-font: "Verdana", "Helvetica Neue", sans-serif;
+    --main-font: "Tahoma", "Helvetica Neue", sans-serif;
 
 }
 
