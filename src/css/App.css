@@ -57,7 +57,6 @@ hr {
 #about {
     background-color: var(--light-text);
     background-size: cover;
-    height: 500px;
     padding: 50px;
 }
 

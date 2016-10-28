@@ -20,6 +20,9 @@ class App extends Component {
       <div className="App">
 
         <Navigation />
+          {/* TODO add bootstrap collapse hamburger button to navigation panel*/}
+          {/* TODO style contact buttons*/}
+          {/* TODO style additional info buttons in column */}
 
         {/* INTRO ===================================================*/}
 
@@ -33,16 +36,22 @@ class App extends Component {
                             <hr className="intro-divider" />
                                 <ul className="list-inline intro-social-buttons">
                                     <li>
-                                        <a href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg"><i
-                                            className="fa fa-twitter fa-fw"></i> <span className="network-name">Twitter</span></a>
+                                        <a href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg">
+                                            <i className="fa fa-twitter fa-fw" />
+                                            <span className="network-name">Twitter</span>
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="https://github.com/loopDelicious" className="btn btn-default btn-lg"><i
-                                            className="fa fa-github fa-fw"></i> <span className="network-name">Github</span></a>
+                                        <a href="https://github.com/loopDelicious" className="btn btn-default btn-lg">
+                                            <i className="fa fa-github fa-fw" />
+                                            <span className="network-name">Github</span>
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg"><i
-                                            className="fa fa-linkedin fa-fw"></i> <span className="network-name">Linkedin</span></a>
+                                        <a href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg">
+                                            <i className="fa fa-linkedin fa-fw" />
+                                            <span className="network-name">Linkedin</span>
+                                        </a>
                                     </li>
                                 </ul>
                         </div>
@@ -73,7 +82,9 @@ class App extends Component {
                               cycling, and bootcamp
                               instructor.</p>
                           <div className="list-group">
-                              <a className="list-group-item" href="https://medium.com/@joycelin.codes"><i className="fa fa-medium fa-fw" aria-hidden="true"></i>&nbsp; I have things to say about coding and tech.</a>
+                              <a className="list-group-item" href="https://medium.com/@joycelin.codes">
+                                  <i className="fa fa-medium fa-fw" aria-hidden="true" />&nbsp; I have things to say about coding and tech.
+                              </a>
                           </div>
                       </div>
                   </Toggle>
@@ -91,11 +102,11 @@ class App extends Component {
             <div className="row">
                 <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div className="clearfix"></div>
-                    <h2 className="section-heading tech3"><i className="fa fa-cog fa-spin fa-2x fa-fw"></i>  Technologies<br /></h2>
+                    <h2 className="section-heading tech3"><i className="fa fa-cog fa-spin fa-2x fa-fw" />  Technologies<br /></h2>
                     <span className="tech">languages</span>
                     <p className="tech2">Python, JavaScript, HTML/CSS, AJAX, SQL</p><br />
                     <span className="tech">frameworks/libraries</span>
-                    <p className="tech2">React, Flask, Node.js, Express, jQuery, Bootstrap</p><br />
+                    <p className="tech2">React, Flask, Node.js, Express, jQuery, SASS, Bootstrap</p><br />
                     <span className="tech">industry tools</span>
                     <p className="tech2">PostgreSQL, Redis, WebSockets, Git, Heroku</p><br />
                     <span className="tech">industry software</span>
@@ -155,8 +166,12 @@ class App extends Component {
                                     <p className="lead">Leaflet, Mapbox.js, Mapbox Directions, Mapbox Geocoding, Google Maps Distance
                                         Matrix, Google Maps Streetview, Imgur photo upload</p>
                                     <div className="list-group">
-                                        <a className="list-group-item" href="https://github.com/loopDelicious/walking"><i className="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; GitHub</a>
-                                        <a className="list-group-item" href="https://www.youtube.com/watch?v=T7kwK7rYwOY"><i className="fa fa-youtube-play fa-fw" aria-hidden="true"></i>&nbsp; YouTube demo</a>
+                                        <a className="list-group-item" href="https://github.com/loopDelicious/walking">
+                                            <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
+                                        </a>
+                                        <a className="list-group-item" href="https://www.youtube.com/watch?v=T7kwK7rYwOY">
+                                            <i className="fa fa-youtube-play fa-fw" aria-hidden="true" />&nbsp; YouTube demo
+                                        </a>
                                     </div>
                                 </div>
                             </Toggle>
@@ -185,7 +200,9 @@ class App extends Component {
                                         background color and animations based on GPS location of the audience member's phone.</p>
                                     <p className="lead">Node.js, HTML5, socket.io, React, jQuery, Webpack</p>
                                     <div className="list-group">
-                                        <a className="list-group-item" href="https://github.com/loopDelicious/outsidehacks"><i className="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; GitHub</a>
+                                        <a className="list-group-item" href="https://github.com/loopDelicious/outsidehacks">
+                                            <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
+                                        </a>
                                     </div>
                                 </div>
                             </Toggle>
@@ -212,14 +229,20 @@ class App extends Component {
                                       <p className="lead">PostgreSQL, SQLAlchemy, Redis, Python, Flask, JavaScript, JQuery, Ajax, HTML5, CSS3,
                                           Clipboard.JS, Heroku</p>
                                       <div className="list-group">
-                                          <a className="list-group-item" href="https://github.com/loopDelicious/cat-url-mangler"><i class="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; GitHub</a>
-                                          <a className="list-group-item" href="https://caturl.herokuapp.com/"><i className="fa fa-paw fa-fw" aria-hidden="true"></i>&nbsp; Check it out, meow</a>
+                                          <a className="list-group-item" href="https://github.com/loopDelicious/cat-url-mangler">
+                                              <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
+                                          </a>
+                                          <a className="list-group-item" href="https://caturl.herokuapp.com/">
+                                              <i className="fa fa-paw fa-fw" aria-hidden="true" />&nbsp; Check it out, meow
+                                          </a>
                                       </div>
                                   </div>
                               </Toggle>
                     </div>
                     <div className="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <a href="https://caturl.herokuapp.com/"><img className="img-responsive" src={caturl} alt="screenshot" /></a>
+                        <a href="https://caturl.herokuapp.com/">
+                            <img className="img-responsive" src={caturl} alt="screenshot" />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -238,9 +261,15 @@ class App extends Component {
                                     <p className="lead">Developed as a data illustration for a Medium blog post, and deployed on Digital Ocean using Nginx.</p>
                                     <p className="lead">JavaScript, HTML5, Chart.js, Nginx, CloudFlare, Digital Ocean</p>
                                     <div className="list-group">
-                                        <a className="list-group-item" href="https://github.com/loopDelicious/dataviz"><i class="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; GitHub</a>
-                                        <a className="list-group-item" href="https://medium.com/@joycelin.codes/30-days-of-coding-56f4e6c72aa2#.de9wrhwss"><i class="fa fa-medium fa-fw" aria-hidden="true"></i>&nbsp; Medium blog</a>
-                                        <a className="list-group-item" href="http://192.241.206.83/"><i className="fa fa-bar-chart-o fa-fw" aria-hidden="true"></i>&nbsp; Check it out</a>
+                                        <a className="list-group-item" href="https://github.com/loopDelicious/dataviz">
+                                            <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
+                                        </a>
+                                        <a className="list-group-item" href="https://medium.com/@joycelin.codes/30-days-of-coding-56f4e6c72aa2#.de9wrhwss">
+                                            <i className="fa fa-medium fa-fw" aria-hidden="true" />&nbsp; Medium blog
+                                        </a>
+                                        <a className="list-group-item" href="http://192.241.206.83/">
+                                            <i className="fa fa-bar-chart-o fa-fw" aria-hidden="true" />&nbsp; Check it out
+                                        </a>
                                     </div>
                                 </div>
                             </Toggle>
@@ -262,16 +291,22 @@ class App extends Component {
                 <div className="col-lg-6">
                     <ul className="list-inline banner-social-buttons">
                         <li>
-                            <a href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg"><i
-                                className="fa fa-twitter fa-fw"></i> <span className="network-name">Twitter</span></a>
+                            <a href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg">
+                                <i className="fa fa-twitter fa-fw" />
+                                <span className="network-name">Twitter</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="https://github.com/loopDelicious" className="btn btn-default btn-lg"><i
-                                className="fa fa-github fa-fw"></i> <span className="network-name">Github</span></a>
+                            <a href="https://github.com/loopDelicious" className="btn btn-default btn-lg">
+                                <i className="fa fa-github fa-fw" />
+                                <span className="network-name">Github</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg"><i
-                                className="fa fa-linkedin fa-fw"></i> <span className="network-name">Linkedin</span></a>
+                            <a href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg">
+                                <i className="fa fa-linkedin fa-fw" />
+                                <span className="network-name">Linkedin</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
