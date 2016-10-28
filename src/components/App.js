@@ -100,6 +100,8 @@ class App extends Component {
 
         {/* PROJECT SECTIONS ==========================================*/}
 
+        <div id="projects"></div>
+
         <div id="nitrous" className="section">
             <div className="container">
                 <div className="row">
@@ -212,6 +214,36 @@ class App extends Component {
                 </div>
             </div>
         </div>
+
+        <footer>
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <ul className="list-inline">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li className="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li className="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#tech">Tech</a>
+                            </li>
+                            <li className="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <li className="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
       </div>
     );

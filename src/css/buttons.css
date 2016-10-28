@@ -8,7 +8,7 @@ a:link {
 
 a:hover, a:active {
     color: var(--secondary-color);
-    background-color: var(--tertiary-color);
+    text-decoration: none;
 }
 
 a:visited {

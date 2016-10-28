@@ -100,6 +100,10 @@ hr {
     display: flex;
 }
 
+#contact > .btn .btn-default .btn-lg {
+    color: black;
+}
+
 /*#contact > h2 {*/
     /*width: 40vw;*/
     /*text-shadow: 1px 1px var(--tertiary-color);*/
@@ -108,3 +112,7 @@ hr {
 /*#contact > .container > .row > .col-lg-6 > h2 {*/
     /*float: left;*/
 /*}*/
+
+.footer-menu-divider {
+    color: var(--main-color);
+}
