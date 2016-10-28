@@ -20,17 +20,16 @@
     color: var(--light-text);
 }
 
-hr {
-    width: 200px;
-    border-top: 1px solid var(--light-text);
-    margin: 30px;
+.intro-message > h1 {
+    margin-bottom: 20px;
 }
 
-/*.banner-social-buttons > ul {*/
-    /*display: inline;*/
-/*}*/
+.intro-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-#intro > .banner-social-buttons > li {
+#intro > .banner-social-buttons > a {
     float: right;
     width: 125px;
     border-radius: 4px;

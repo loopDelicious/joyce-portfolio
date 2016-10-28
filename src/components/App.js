@@ -286,29 +286,31 @@ class App extends Component {
         <div id="contact" className="section banner">
             <div className="container">
                 <div className="row">
-                    <h2>Working on something interesting?  Talk to me.</h2>
-                </div>
-                <div className="col-lg-6">
-                    <ul className="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg">
-                                <i className="fa fa-twitter fa-fw" />
-                                <span className="network-name">Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/loopDelicious" className="btn btn-default btn-lg">
-                                <i className="fa fa-github fa-fw" />
-                                <span className="network-name">Github</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg">
-                                <i className="fa fa-linkedin fa-fw" />
-                                <span className="network-name">Linkedin</span>
-                            </a>
-                        </li>
-                    </ul>
+                    <div className="col-lg-6">
+                        <h2>Working on something interesting?  Talk to me.</h2>
+                    </div>
+                    <div className="col-lg-6">
+                        <ul className="list-inline banner-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg">
+                                    <i className="fa fa-twitter fa-fw" />
+                                    <span className="network-name">Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/loopDelicious" className="btn btn-default btn-lg">
+                                    <i className="fa fa-github fa-fw" />
+                                    <span className="network-name">Github</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg">
+                                    <i className="fa fa-linkedin fa-fw" />
+                                    <span className="network-name">Linkedin</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

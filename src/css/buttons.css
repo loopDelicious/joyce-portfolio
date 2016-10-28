@@ -7,12 +7,8 @@ a:link {
 }
 
 a:hover, a:active {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-
-a:visited {
     color: var(--main-color);
+    text-decoration: none;
 }
 
 /* Button Styling */
@@ -27,4 +23,8 @@ a:visited {
     font-size: larger;
     cursor: pointer;
     display: block;
+}
+
+.btn-default:hover {
+    color: var(--main-color);
 }
