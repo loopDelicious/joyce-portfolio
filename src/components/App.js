@@ -2,12 +2,7 @@ import React, { Component } from 'react';
 import '../css/App.css';
 
 import Navigation from '../components/navigation.js';
-import ToggleMain from '../components/toggleMain.js';
-import ToggleHacker from '../components/toggleHacker.js';
-import ToggleCat from '../components/toggleCat.js';
-import ToggleLights from '../components/toggleLights.js';
-import ToggleWalking from '../components/toggleWalking.js';
-import ToggleNitrous from '../components/toggleNitrous.js';
+import Toggle from '../components/toggle.js';
 
 import tigerhat from '../img/tigerhat.png';
 import robot from '../img/robot.png';
@@ -66,7 +61,22 @@ class App extends Component {
                   <p className="lead">I enjoy the challenge of keeping up with the entire stack because it keeps you sharp on
                       a bunch of new technologies, and I get some flexibility to move around when I get tired of working
                       too closely in one area.</p>
-                  <ToggleMain />
+                  <Toggle>
+                      <div className="about-joyce">
+                          <p className="lead">I'm a chameleon, and I can do anything that I've set my mind to, so far! I've done
+                              operations, business, product and marketing.</p>
+                          <p className="lead">Being a programmer, there is always something new to learn, and the rapid
+                              pace of change keeps things fresh.</p>
+                          <h3>Other interests</h3>
+                          <p className="lead">Interested in health and wellness, travel and technology.</p>
+                          <p className="lead">National Exercise & Sports Trainers Association (NESTA) certified sport yoga, indoor
+                              cycling, and bootcamp
+                              instructor.</p>
+                          <div className="list-group">
+                              <a className="list-group-item" href="https://medium.com/@joycelin.codes"><i className="fa fa-medium fa-fw" aria-hidden="true"></i>&nbsp; I have things to say about coding and tech.</a>
+                          </div>
+                      </div>
+                  </Toggle>
               </div>
               <div className="col-lg-5 col-sm-pull-6  col-sm-6">
                   <img className="img-responsive" src={tigerhat} alt="joyce-tigerhat" />
@@ -110,7 +120,13 @@ class App extends Component {
                             <div className="clearfix"></div>
                             <h2 className="section-heading">Nitrous.io</h2>
                             <p className="lead">Lead developer for website rebrand using Node.js framework, React components, Jade/Pug templating, SASS preprocessor, and Gulp task runner.</p>
-                            <ToggleNitrous />
+                            <Toggle>
+                                <div className="nitrous">
+                                    <p className="lead">Sole developer to re-architect and build a new website, consolidating content from four existing subdomains into one.</p>
+                                    <p className="lead">Developed React components for navigation and Sign Up user experience.  </p>
+                                    <p className="lead">React, Node.js, JavaScript, Jade/Pug, Bootstrap, HTML5, SASS</p>
+                                </div>
+                            </Toggle>
                     </div>
                     <div className="col-lg-5 col-sm-pull-6 col-sm-6">
                         <img className="img-responsive" src={nitrous} alt="homepage" />
@@ -128,7 +144,22 @@ class App extends Component {
                             <h2 className="section-heading">Christopher Walken</h2>
                             <p className="lead">Geovisualization app using Flask, PostgreSQL, and machine learning to recommend walking
                                 destinations throughout San Francisco.</p>
-                            <ToggleWalking />
+                            <Toggle>
+                                <div className="walking">
+                                    <p className="lead">Integration with the Mapbox and Google Maps API's allows users to plan the optimal
+                                        walking routes to visit local parks and public art works.</p>
+                                    <p className="lead">Using machine learning and other user's reviews, Christopher Walken recommends other
+                                        landmarks within proximity of your planned route.</p>
+                                    <p className="lead">PostgreSQL, SQLAlchemy, Python, Flask, JavaScript, JQuery, Ajax, Bootstrap, HTML5,
+                                        CSS3</p>
+                                    <p className="lead">Leaflet, Mapbox.js, Mapbox Directions, Mapbox Geocoding, Google Maps Distance
+                                        Matrix, Google Maps Streetview, Imgur photo upload</p>
+                                    <div className="list-group">
+                                        <a className="list-group-item" href="https://github.com/loopDelicious/walking"><i className="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; GitHub</a>
+                                        <a className="list-group-item" href="https://www.youtube.com/watch?v=T7kwK7rYwOY"><i className="fa fa-youtube-play fa-fw" aria-hidden="true"></i>&nbsp; YouTube demo</a>
+                                    </div>
+                                </div>
+                            </Toggle>
                     </div>
                     <div className="col-lg-5 col-lg-offset-2 col-sm-6">
                         <img className="img-responsive" src={walking} alt="screenshot" />
@@ -146,7 +177,18 @@ class App extends Component {
                             <h2 className="section-heading">Outside Lights</h2>
                             <p className="lead">Node.js app using WebSockets and GPS enabling DJs to push color and animation updates to
                                 create a synchronized light show on audience phones.</p>
-                            <ToggleLights />
+                            <Toggle>
+                                <div className="lights">
+                                    <p className="lead">Developed in 24 hours for the Outside Hacks hackathon, we set out to build something
+                                        that enhances the experience for Artists and/or Fans at Outside Lands music festival.</p>
+                                    <p className="lead">Using web sockets, DJ's can interact with the audience, pushing changes in
+                                        background color and animations based on GPS location of the audience member's phone.</p>
+                                    <p className="lead">Node.js, HTML5, socket.io, React, jQuery, Webpack</p>
+                                    <div className="list-group">
+                                        <a className="list-group-item" href="https://github.com/loopDelicious/outsidehacks"><i className="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; GitHub</a>
+                                    </div>
+                                </div>
+                            </Toggle>
                     </div>
                     <div className="col-lg-5 col-sm-pull-6 col-sm-6">
                         <img className="img-responsive" src={lights} alt="tabletUI" />
@@ -163,7 +205,18 @@ class App extends Component {
                               <div className="clearfix"></div>
                               <h2 className="section-heading">CatURL Shortener</h2>
                               <p className="lead">Cat-themed URL shortener using PostgreSQL and Redis. It's a litter bit amazing!</p>
-                              <ToggleCat />
+                              <Toggle>
+                                  <div className="catUrl">
+                                      <p className="lead">Using a random selection of cat verbs, cat nouns, and cat emojis, create your own
+                                          unique URL.</p>
+                                      <p className="lead">PostgreSQL, SQLAlchemy, Redis, Python, Flask, JavaScript, JQuery, Ajax, HTML5, CSS3,
+                                          Clipboard.JS, Heroku</p>
+                                      <div className="list-group">
+                                          <a className="list-group-item" href="https://github.com/loopDelicious/cat-url-mangler"><i class="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; GitHub</a>
+                                          <a className="list-group-item" href="https://caturl.herokuapp.com/"><i className="fa fa-paw fa-fw" aria-hidden="true"></i>&nbsp; Check it out, meow</a>
+                                      </div>
+                                  </div>
+                              </Toggle>
                     </div>
                     <div className="col-lg-5 col-lg-offset-2 col-sm-6">
                         <a href="https://caturl.herokuapp.com/"><img className="img-responsive" src={caturl} alt="screenshot" /></a>
@@ -180,7 +233,17 @@ class App extends Component {
                             <div className="clearfix"></div>
                             <h2 className="section-heading">30 Days of Coding</h2>
                             <p className="lead">Data visualization using Chart.js to demonstrate the dropout rate from 30 days of coding challenge - only 8.2% make it to the last day.</p>
-                            <ToggleHacker />
+                            <Toggle>
+                                <div className="hackerrank">
+                                    <p className="lead">Developed as a data illustration for a Medium blog post, and deployed on Digital Ocean using Nginx.</p>
+                                    <p className="lead">JavaScript, HTML5, Chart.js, Nginx, CloudFlare, Digital Ocean</p>
+                                    <div className="list-group">
+                                        <a className="list-group-item" href="https://github.com/loopDelicious/dataviz"><i class="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; GitHub</a>
+                                        <a className="list-group-item" href="https://medium.com/@joycelin.codes/30-days-of-coding-56f4e6c72aa2#.de9wrhwss"><i class="fa fa-medium fa-fw" aria-hidden="true"></i>&nbsp; Medium blog</a>
+                                        <a className="list-group-item" href="http://192.241.206.83/"><i className="fa fa-bar-chart-o fa-fw" aria-hidden="true"></i>&nbsp; Check it out</a>
+                                    </div>
+                                </div>
+                            </Toggle>
                     </div>
                     <div className="col-lg-5 col-sm-pull-6  col-sm-6">
                         <img className="img-responsive" src={hackerrank} alt="graph" />
