@@ -1,8 +1,22 @@
 import React, { Component } from 'react';
 import '../css/App.css';
+
 import Navigation from '../components/navigation.js';
+import ToggleMain from '../components/toggleMain.js';
+import ToggleHacker from '../components/toggleHacker.js';
+import ToggleCat from '../components/toggleCat.js';
+import ToggleLights from '../components/toggleLights.js';
+import ToggleWalking from '../components/toggleWalking.js';
+import ToggleNitrous from '../components/toggleNitrous.js';
+
 import tigerhat from '../img/tigerhat.png';
 import robot from '../img/robot.png';
+import hackerrank from '../img/hackerrank.png';
+import caturl from '../img/catURL.png';
+import lights from '../img/lights.png';
+import walking from '../img/walking.png';
+import nitrous from '../img/nitrous.png';
+
 
 class App extends Component {
 
@@ -11,6 +25,8 @@ class App extends Component {
       <div className="App">
 
         <Navigation />
+
+        {/* INTRO ===================================================*/}
 
         <div id="intro" className="section">
             <div className="container">
@@ -40,15 +56,9 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="about" className="section">
-            {/*<img src={tigerhat} id="portrait" alt="joyce-tigerhat"/>*/}
-            {/*<div className="accompany-text">*/}
-                {/*<h2>Joyce Lin: </h2>*/}
-                {/*<h2>Full Stack Engineer with Product Experience</h2>*/}
-                {/*<p>I enjoy the challenge of keeping up with the entire stack because it keeps you sharp on a bunch of new technologies, and I get some flexibility to move around when I get tired of working too closely in one area.</p>*/}
-            {/*</div>*/}
-            {/*</div>*/}
+        {/* ABOUT ===================================================*/}
 
+        <div id="about" className="section">
           <div className="row">
               <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                   <div className="clearfix"></div>
@@ -56,21 +66,7 @@ class App extends Component {
                   <p className="lead">I enjoy the challenge of keeping up with the entire stack because it keeps you sharp on
                       a bunch of new technologies, and I get some flexibility to move around when I get tired of working
                       too closely in one area.</p>
-                  {/*<a data-toggle="collapse" data-target="#accordion-about">+ Read more</a>*/}
-                  {/*<div id="accordion-about" className="collapse">*/}
-                      {/*<p className="lead">I'm a chameleon, and I can do anything that I've set my mind to, so far! I've done*/}
-                          {/*operations, business, product and marketing.</p>*/}
-                      {/*<p className="lead">Being a programmer, there is always something new to learn, and the rapid*/}
-                          {/*pace of change keeps things fresh.</p>*/}
-                      {/*<h3>Other interests</h3>*/}
-                      {/*<p className="lead">Interested in health and wellness, travel and technology.</p>*/}
-                      {/*<p className="lead">National Exercise & Sports Trainers Association (NESTA) certified sport yoga, indoor*/}
-                          {/*cycling, and bootcamp*/}
-                          {/*instructor.</p>*/}
-                      {/*<div className="list-group">*/}
-                          {/*<a className="list-group-item" href="https://medium.com/@joycelin.codes"><i className="fa fa-medium fa-fw" aria-hidden="true"></i>&nbsp; I have things to say about coding and tech.</a>*/}
-                      {/*</div>*/}
-                  {/*</div>*/}
+                  <ToggleMain />
               </div>
               <div className="col-lg-5 col-sm-pull-6  col-sm-6">
                   <img className="img-responsive" src={tigerhat} alt="joyce-tigerhat" />
@@ -78,20 +74,9 @@ class App extends Component {
           </div>
         </div>
 
+        {/* TECH =====================================================*/}
+
         <div id="tech" className="section">
-            {/*<img src={robot} id='robotic' alt="robot"/>*/}
-            {/*<div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">*/}
-                {/*<div className="clearfix"></div>*/}
-                {/*<h2 className="section-heading tech3"><i className="fa fa-cog fa-spin fa-2x fa-fw"></i>  Technologies<br /></h2>*/}
-                {/*<span className="tech">languages</span>*/}
-                {/*<p className="tech2">Python, JavaScript, HTML/CSS, AJAX, SQL</p><br />*/}
-                {/*<span className="tech">frameworks/libraries</span>*/}
-                {/*<p className="tech2">Flask, jQuery, Bootstrap, Node.js, Express, React</p><br />*/}
-                {/*<span className="tech">industry tools</span>*/}
-                {/*<p className="tech2">PostgreSQL, Redis, WebSockets, Git, Heroku</p><br />*/}
-                {/*<span className="tech">industry software</span>*/}
-                {/*<p className="tech2">JIRA, Omniture, Google Analytics</p><br />*/}
-            {/*</div>*/}
             <div className="container">
             <div className="row">
                 <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
@@ -113,9 +98,96 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="projects" className="section">
-            <h2>PROJECTS</h2>
+        {/* PROJECT SECTIONS ==========================================*/}
+
+        <div id="nitrous" className="section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                        <hr className="section-heading-spacer"/>
+                            <div className="clearfix"></div>
+                            <h2 className="section-heading">Nitrous.io</h2>
+                            <p className="lead">Lead developer for website rebrand using Node.js framework, React components, Jade/Pug templating, SASS preprocessor, and Gulp task runner.</p>
+                            <ToggleNitrous />
+                    </div>
+                    <div className="col-lg-5 col-sm-pull-6 col-sm-6">
+                        <img className="img-responsive" src={nitrous} alt="homepage" />
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div id="christopherWalken" className="section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-5 col-sm-6">
+                        <hr className="section-heading-spacer" />
+                            <div className="clearfix"></div>
+                            <h2 className="section-heading">Christopher Walken</h2>
+                            <p className="lead">Geovisualization app using Flask, PostgreSQL, and machine learning to recommend walking
+                                destinations throughout San Francisco.</p>
+                            <ToggleWalking />
+                    </div>
+                    <div className="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img className="img-responsive" src={walking} alt="screenshot" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="'outsidelights" className="section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                        <hr className="section-heading-spacer" />
+                            <div className="clearfix"></div>
+                            <h2 className="section-heading">Outside Lights</h2>
+                            <p className="lead">Node.js app using WebSockets and GPS enabling DJs to push color and animation updates to
+                                create a synchronized light show on audience phones.</p>
+                            <ToggleLights />
+                    </div>
+                    <div className="col-lg-5 col-sm-pull-6 col-sm-6">
+                        <img className="img-responsive" src={lights} alt="tabletUI" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="caturl" className="section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-5 col-sm-6">
+                          <hr className="section-heading-spacer" />
+                              <div className="clearfix"></div>
+                              <h2 className="section-heading">CatURL Shortener</h2>
+                              <p className="lead">Cat-themed URL shortener using PostgreSQL and Redis. It's a litter bit amazing!</p>
+                              <ToggleCat />
+                    </div>
+                    <div className="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <a href="https://caturl.herokuapp.com/"><img className="img-responsive" src={caturl} alt="screenshot" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="hackerrank" className="section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <hr className="section-heading-spacer" />
+                            <div className="clearfix"></div>
+                            <h2 className="section-heading">30 Days of Coding</h2>
+                            <p className="lead">Data visualization using Chart.js to demonstrate the dropout rate from 30 days of coding challenge - only 8.2% make it to the last day.</p>
+                            <ToggleHacker />
+                    </div>
+                    <div className="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img className="img-responsive" src={hackerrank} alt="graph" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {/* CONTACT ===================================================*/}
 
         <div id="contact" className="section banner">
             <div className="container">

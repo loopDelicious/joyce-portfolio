@@ -83,6 +83,11 @@ hr {
 
 /* PROJECTS section */
 
+.data-toggle > a {
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
 /* CONTACT section */
 
 #contact {
