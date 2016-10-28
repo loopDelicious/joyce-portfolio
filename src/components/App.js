@@ -21,8 +21,7 @@ class App extends Component {
 
         <Navigation />
           {/* TODO add bootstrap collapse hamburger button to navigation panel*/}
-          {/* TODO style contact buttons*/}
-          {/* TODO style additional info buttons in column */}
+          {/* TODO style or make img-responsive giphy in project nitrous section */}
 
         {/* INTRO ===================================================*/}
 
@@ -31,24 +30,24 @@ class App extends Component {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="intro-message">
-                            <h1>I'm Joyce.</h1>
+                            <h2>I'm Joyce.</h2>
                             <h3>Working on something interesting? Talk to me.</h3>
                             <hr className="intro-divider" />
                                 <ul className="list-inline intro-social-buttons">
                                     <li>
-                                        <a href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg">
+                                        <a target="_blank" href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg">
                                             <i className="fa fa-twitter fa-fw" />
                                             <span className="network-name">Twitter</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://github.com/loopDelicious" className="btn btn-default btn-lg">
+                                        <a target="_blank" href="https://github.com/loopDelicious" className="btn btn-default btn-lg">
                                             <i className="fa fa-github fa-fw" />
                                             <span className="network-name">Github</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg">
+                                        <a target="_blank" href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg">
                                             <i className="fa fa-linkedin fa-fw" />
                                             <span className="network-name">Linkedin</span>
                                         </a>
@@ -66,7 +65,7 @@ class App extends Component {
           <div className="row">
               <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                   <div className="clearfix"></div>
-                  <h2 className="section-heading">Joyce Lin: <br />Full Stack Engineer <br />with Product Experience</h2>
+                  <h3 className="section-heading">Joyce Lin: <br />Full Stack Engineer <br />with Product Experience</h3>
                   <p className="lead">I enjoy the challenge of keeping up with the entire stack because it keeps you sharp on
                       a bunch of new technologies, and I get some flexibility to move around when I get tired of working
                       too closely in one area.</p>
@@ -82,7 +81,7 @@ class App extends Component {
                               cycling, and bootcamp
                               instructor.</p>
                           <div className="list-group">
-                              <a className="list-group-item" href="https://medium.com/@joycelin.codes">
+                              <a className="list-group-item" target="_blank" href="https://medium.com/@joycelin.codes">
                                   <i className="fa fa-medium fa-fw" aria-hidden="true" />&nbsp; I have things to say about coding and tech.
                               </a>
                           </div>
@@ -102,7 +101,7 @@ class App extends Component {
             <div className="row">
                 <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div className="clearfix"></div>
-                    <h2 className="section-heading tech3"><i className="fa fa-cog fa-spin fa-2x fa-fw" />  Technologies<br /></h2>
+                    <h2 className="section-heading tech3"><i className="fa fa-cog fa-spin slow-spin fa-2x fa-fw" />  Technologies<br /></h2>
                     <span className="tech">languages</span>
                     <p className="tech2">Python, JavaScript, HTML/CSS, AJAX, SQL</p><br />
                     <span className="tech">frameworks/libraries</span>
@@ -123,7 +122,7 @@ class App extends Component {
 
         <div id="projects"></div>
 
-        <div id="nitrous" className="section">
+        <div id="nitrous" className="section content-section-a">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
@@ -134,19 +133,25 @@ class App extends Component {
                             <Toggle>
                                 <div className="nitrous">
                                     <p className="lead">Sole developer to re-architect and build a new website, consolidating content from four existing subdomains into one.</p>
-                                    <p className="lead">Developed React components for navigation and Sign Up user experience.  </p>
                                     <p className="lead">React, Node.js, JavaScript, Jade/Pug, Bootstrap, HTML5, SASS</p>
+                                    <p className="lead">Developer Evangelist creating demos, content and tutorials for the developer community.</p>
+                                    <div className="list-group">
+                                        <a className="list-group-item" target="_blank" href="https://youtu.be/xCDpXgWsuU4">
+                                            <i className="fa fa-youtube-play fa-fw" aria-hidden="true" />&nbsp; YouTube demo
+                                        </a>
+                                    </div>
                                 </div>
                             </Toggle>
                     </div>
                     <div className="col-lg-5 col-sm-pull-6 col-sm-6">
-                        <img className="img-responsive" src={nitrous} alt="homepage" />
+                        {/*<img className="img-responsive" src={nitrous} alt="homepage" />*/}
+                        <iframe src="//giphy.com/embed/l2JhwQeLzGjvU3NZK" width="480" height="290" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/l2JhwQeLzGjvU3NZK">via GIPHY</a></p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="christopherWalken" className="section">
+        <div id="christopherWalken" className="section content-section-b">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-sm-6">
@@ -166,10 +171,10 @@ class App extends Component {
                                     <p className="lead">Leaflet, Mapbox.js, Mapbox Directions, Mapbox Geocoding, Google Maps Distance
                                         Matrix, Google Maps Streetview, Imgur photo upload</p>
                                     <div className="list-group">
-                                        <a className="list-group-item" href="https://github.com/loopDelicious/walking">
+                                        <a className="list-group-item" target="_blank" href="https://github.com/loopDelicious/walking">
                                             <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
                                         </a>
-                                        <a className="list-group-item" href="https://www.youtube.com/watch?v=T7kwK7rYwOY">
+                                        <a className="list-group-item" target="_blank" href="https://www.youtube.com/watch?v=T7kwK7rYwOY">
                                             <i className="fa fa-youtube-play fa-fw" aria-hidden="true" />&nbsp; YouTube demo
                                         </a>
                                     </div>
@@ -183,7 +188,7 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="'outsidelights" className="section">
+        <div id="'outsidelights" className="section content-section-a">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
@@ -200,7 +205,7 @@ class App extends Component {
                                         background color and animations based on GPS location of the audience member's phone.</p>
                                     <p className="lead">Node.js, HTML5, socket.io, React, jQuery, Webpack</p>
                                     <div className="list-group">
-                                        <a className="list-group-item" href="https://github.com/loopDelicious/outsidehacks">
+                                        <a className="list-group-item" target="_blank" href="https://github.com/loopDelicious/outsidehacks">
                                             <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
                                         </a>
                                     </div>
@@ -214,7 +219,7 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="caturl" className="section">
+        <div id="caturl" className="section content-section-b">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-sm-6">
@@ -229,10 +234,10 @@ class App extends Component {
                                       <p className="lead">PostgreSQL, SQLAlchemy, Redis, Python, Flask, JavaScript, JQuery, Ajax, HTML5, CSS3,
                                           Clipboard.JS, Heroku</p>
                                       <div className="list-group">
-                                          <a className="list-group-item" href="https://github.com/loopDelicious/cat-url-mangler">
+                                          <a className="list-group-item" target="_blank" href="https://github.com/loopDelicious/cat-url-mangler">
                                               <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
                                           </a>
-                                          <a className="list-group-item" href="https://caturl.herokuapp.com/">
+                                          <a className="list-group-item" target="_blank" href="https://caturl.herokuapp.com/">
                                               <i className="fa fa-paw fa-fw" aria-hidden="true" />&nbsp; Check it out, meow
                                           </a>
                                       </div>
@@ -248,7 +253,7 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="hackerrank" className="section">
+        <div id="hackerrank" className="section content-section-a">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
@@ -261,13 +266,13 @@ class App extends Component {
                                     <p className="lead">Developed as a data illustration for a Medium blog post, and deployed on Digital Ocean using Nginx.</p>
                                     <p className="lead">JavaScript, HTML5, Chart.js, Nginx, CloudFlare, Digital Ocean</p>
                                     <div className="list-group">
-                                        <a className="list-group-item" href="https://github.com/loopDelicious/dataviz">
+                                        <a className="list-group-item" target="_blank" href="https://github.com/loopDelicious/dataviz">
                                             <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
                                         </a>
-                                        <a className="list-group-item" href="https://medium.com/@joycelin.codes/30-days-of-coding-56f4e6c72aa2#.de9wrhwss">
+                                        <a className="list-group-item" target="_blank" href="https://medium.com/@joycelin.codes/30-days-of-coding-56f4e6c72aa2#.de9wrhwss">
                                             <i className="fa fa-medium fa-fw" aria-hidden="true" />&nbsp; Medium blog
                                         </a>
-                                        <a className="list-group-item" href="http://192.241.206.83/">
+                                        <a className="list-group-item" target="_blank" href="http://192.241.206.83/">
                                             <i className="fa fa-bar-chart-o fa-fw" aria-hidden="true" />&nbsp; Check it out
                                         </a>
                                     </div>
@@ -292,19 +297,19 @@ class App extends Component {
                     <div className="col-lg-6">
                         <ul className="list-inline banner-social-buttons">
                             <li>
-                                <a href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg">
+                                <a target="_blank" href="https://twitter.com/PetuniaGray" className="btn btn-default btn-lg">
                                     <i className="fa fa-twitter fa-fw" />
                                     <span className="network-name">Twitter</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/loopDelicious" className="btn btn-default btn-lg">
+                                <a target="_blank" href="https://github.com/loopDelicious" className="btn btn-default btn-lg">
                                     <i className="fa fa-github fa-fw" />
                                     <span className="network-name">Github</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg">
+                                <a target="_blank" href="https://www.linkedin.com/in/joyce-lin" className="btn btn-default btn-lg">
                                     <i className="fa fa-linkedin fa-fw" />
                                     <span className="network-name">Linkedin</span>
                                 </a>

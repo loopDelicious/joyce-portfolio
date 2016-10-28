@@ -3,7 +3,7 @@
 a:link {
     text-decoration: none;
     color: var(--main-color);
-    display: inline-block;
+    display: block;
 }
 
 a:hover, a:active {

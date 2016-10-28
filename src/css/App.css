@@ -79,6 +79,11 @@
     background-size: cover;
 }
 
+.slow-spin {
+    -webkit-animation: fa-spin 6s infinite linear;
+    animation: fa-spin 6s infinite linear;
+}
+
 /* PROJECTS section */
 
 .data-toggle > a {
@@ -91,7 +96,7 @@
 #contact {
     background: url(../img/raindrops.png) no-repeat center center fixed;
     background-size: cover;
-    height: 350px;
+    height: 300px;
     text-align: left;
     align-items: center;
     color: var(--light-text);
