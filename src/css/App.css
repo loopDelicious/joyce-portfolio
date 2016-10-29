@@ -116,6 +116,14 @@
     /*float: left;*/
 /*}*/
 
+footer a {
+    color: var(--main-color);
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}
+
 .footer-menu-divider {
     color: var(--main-color);
 }

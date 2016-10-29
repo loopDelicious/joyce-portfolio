@@ -30,7 +30,7 @@ class App extends Component {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="intro-message">
-                            <h2>I'm Joyce.</h2>
+                            <h1>I'm Joyce.</h1>
                             <h3>Working on something interesting? Talk to me.</h3>
                             <hr className="intro-divider" />
                                 <ul className="list-inline intro-social-buttons">
