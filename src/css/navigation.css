@@ -9,9 +9,10 @@
     border-radius: 0;
     z-index: 999;
 }
-.navbar > a:visited {
-    color: var(--main-color);
-}
+
+/*.navbar > a:visited {*/
+    /*color: var(--main-color);*/
+/*}*/
 
 .navbar > a:hover {
     background: none;

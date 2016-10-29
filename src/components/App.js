@@ -10,7 +10,9 @@ import hackerrank from '../img/hackerrank.png';
 import caturl from '../img/catURL.png';
 import lights from '../img/lights.png';
 import walking from '../img/walking.png';
-import nitrous from '../img/nitrous.png';
+import nitrousgiphy from '../img/nitrousgiphy.gif';
+// import nitrous from '../img/nitrous.png';
+
 
 
 class App extends Component {
@@ -20,8 +22,6 @@ class App extends Component {
       <div className="App">
 
         <Navigation />
-          {/* TODO add bootstrap collapse hamburger button to navigation panel*/}
-          {/* TODO style or make img-responsive giphy in project nitrous section */}
 
         {/* INTRO ===================================================*/}
 
@@ -144,8 +144,7 @@ class App extends Component {
                             </Toggle>
                     </div>
                     <div className="col-lg-5 col-sm-pull-6 col-sm-6">
-                        {/*<img className="img-responsive" src={nitrous} alt="homepage" />*/}
-                        <iframe src="//giphy.com/embed/l2JhwQeLzGjvU3NZK" width="480" height="290" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/l2JhwQeLzGjvU3NZK">via GIPHY</a></p>
+                        <img className="img-responsive" src={nitrousgiphy} alt="homepage" />
                     </div>
                 </div>
             </div>
