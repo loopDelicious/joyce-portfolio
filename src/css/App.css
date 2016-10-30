@@ -8,7 +8,8 @@
     clear: both;
 }
 
-/* INTRO section */
+
+/* INTRO section **************/
 
 #intro {
     background: url(../img/coitus.png) no-repeat center center fixed;
@@ -51,7 +52,7 @@
 }
 
 
-/* ABOUT section */
+/* ABOUT section **************/
 
 #about {
     background-color: var(--light-text);
@@ -72,7 +73,8 @@
     margin: 15px;
 }
 
-/* TECH section */
+
+/* TECH section **************/
 
 #tech {
     background-color: var(--main-color);
@@ -84,14 +86,21 @@
     animation: fa-spin 6s infinite linear;
 }
 
-/* PROJECTS section */
 
-.data-toggle > a {
-    margin-bottom: 10px;
+/* PROJECTS section **************/
+
+.data-toggle a {
+    display: block;
+    margin-bottom: 20px;
     color: var(--secondary-color);
 }
 
-/* CONTACT section */
+.data-toggle .list-group-item {
+    margin: 0;
+}
+
+
+/* CONTACT section **************/
 
 #contact {
     background: url(../img/raindrops.png) no-repeat center center fixed;
@@ -107,14 +116,8 @@
     color: black;
 }
 
-/*#contact > h2 {*/
-    /*width: 40vw;*/
-    /*text-shadow: 1px 1px var(--tertiary-color);*/
-/*}*/
 
-/*#contact > .container > .row > .col-lg-6 > h2 {*/
-    /*float: left;*/
-/*}*/
+/* FOOTER **************/
 
 footer a {
     color: var(--main-color);

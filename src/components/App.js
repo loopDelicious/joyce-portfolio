@@ -132,7 +132,7 @@ class App extends Component {
                             <p className="lead">Lead developer for website rebrand using Node.js framework, React components, Jade/Pug templating, SASS preprocessor, and Gulp task runner.</p>
                             <Toggle>
                                 <div className="nitrous">
-                                    <p className="lead">Sole developer to re-architect and build a new website, consolidating content from four existing subdomains into one.</p>
+                                    <p className="lead">Sole developer to build a new website, consolidating content from four existing subdomains into one.</p>
                                     <p className="lead">React, Node.js, JavaScript, Jade/Pug, Bootstrap, HTML5, SASS</p>
                                     <p className="lead">Developer Evangelist creating demos, content and tutorials for the developer community.</p>
                                     <div className="list-group">
@@ -244,7 +244,7 @@ class App extends Component {
                               </Toggle>
                     </div>
                     <div className="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <a href="https://caturl.herokuapp.com/">
+                        <a target="_blank" href="https://caturl.herokuapp.com/">
                             <img className="img-responsive" src={caturl} alt="screenshot" />
                         </a>
                     </div>
@@ -279,7 +279,9 @@ class App extends Component {
                             </Toggle>
                     </div>
                     <div className="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <img className="img-responsive" src={hackerrank} alt="graph" />
+                        <a target="_blank" href="http://192.241.206.83/">
+                            <img className="img-responsive" src={hackerrank} alt="graph" />
+                        </a>
                     </div>
                 </div>
             </div>
