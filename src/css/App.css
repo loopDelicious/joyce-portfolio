@@ -102,6 +102,15 @@
 
 /* CONTACT section **************/
 
+/*.projects-intro {*/
+    /*padding: 50px 0 50px 150px;*/
+    /*background-color: var(--secondary-color);*/
+/*}*/
+
+/*.projects-intro h2 {*/
+    /*color: var(--dark);*/
+/*}*/
+
 #contact {
     background: url(../img/raindrops.png) no-repeat center center fixed;
     background-size: cover;

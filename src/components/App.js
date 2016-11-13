@@ -11,6 +11,7 @@ import caturl from '../img/catURL.png';
 import lights from '../img/lights.png';
 import walking from '../img/walking.png';
 import nitrousgiphy from '../img/nitrousgiphy.gif';
+import regional from '../img/radar.png';
 // import nitrous from '../img/nitrous.png';
 
 
@@ -63,7 +64,7 @@ class App extends Component {
 
         <div id="about" className="section">
           <div className="row">
-              <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+              <div className="col-lg-5 col-sm-6">
                   <div className="clearfix"></div>
                   <h3 className="section-heading">Joyce Lin: <br />Full Stack Engineer <br />with Product Experience</h3>
                   <p className="lead">I enjoy the challenge of keeping up with the entire stack because it keeps you sharp on
@@ -78,8 +79,7 @@ class App extends Component {
                           <h3>Other interests</h3>
                           <p className="lead">Interested in health and wellness, travel and technology.</p>
                           <p className="lead">National Exercise & Sports Trainers Association (NESTA) certified sport yoga, indoor
-                              cycling, and bootcamp
-                              instructor.</p>
+                              cycling, and bootcamp instructor.</p>
                           <div className="list-group">
                               <a className="list-group-item" target="_blank" href="https://medium.com/@joycelin.codes">
                                   <i className="fa fa-medium fa-fw" aria-hidden="true" />&nbsp; I have things to say about coding and tech.
@@ -88,7 +88,7 @@ class App extends Component {
                       </div>
                   </Toggle>
               </div>
-              <div className="col-lg-5 col-sm-pull-6  col-sm-6">
+              <div className="col-lg-5 col-lg-offset-2 col-sm-6">
                   <img className="img-responsive" src={tigerhat} alt="joyce-tigerhat" />
               </div>
           </div>
@@ -99,7 +99,7 @@ class App extends Component {
         <div id="tech" className="section">
             <div className="container">
             <div className="row">
-                <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div className="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
                     <div className="clearfix"></div>
                     <h2 className="section-heading tech3"><i className="fa fa-cog fa-spin slow-spin fa-2x fa-fw" />  Technologies<br /></h2>
                     <span className="tech">languages</span>
@@ -111,7 +111,7 @@ class App extends Component {
                     <span className="tech">industry software</span>
                     <p className="tech2">JIRA, Omniture, Google Analytics</p><br />
                 </div>
-                <div className="col-lg-5 col-sm-pull-6  col-sm-6">
+                <div className="col-lg-5 col-sm-pull-6 col-sm-6">
                     <img className="img-responsive" src={robot} alt="robot" />
                 </div>
             </div>
@@ -121,6 +121,16 @@ class App extends Component {
         {/* PROJECT SECTIONS ==========================================*/}
 
         <div id="projects"></div>
+
+        {/*<div className="banner projects-intro">*/}
+            {/*<div className="container">*/}
+                {/*<div className="row">*/}
+                    {/*<div className="col-lg-6">*/}
+                        {/*<h2>Other stuff</h2>*/}
+                    {/*</div>*/}
+                {/*</div>*/}
+            {/*</div>*/}
+        {/*</div>*/}
 
         <div id="nitrous" className="section content-section-a">
             <div className="container">
@@ -286,6 +296,41 @@ class App extends Component {
                 </div>
             </div>
         </div>
+
+        <div id="regional" className="section content-section-b">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-5 col-sm-6">
+                        <hr className="section-heading-spacer" />
+                        <div className="clearfix"></div>
+                        <h2 className="section-heading">Regional Differences in Programming</h2>
+                        <p className="lead">Data visualization using React-Chart.JS to illustrate job postings by programming language by US city.</p>
+                        <Toggle>
+                            <div className="regional">
+                                <p className="lead">Developed as a data illustration for a Medium blog post, and deployed on Digital Ocean using Nginx.</p>
+                                <p className="lead">React, Chart.js, Redis, JavaScript, JQuery, Ajax, HTML5, CSS3, Digital Ocean</p>
+                                <div className="list-group">
+                                    <a className="list-group-item" target="_blank" href="https://github.com/loopDelicious/indeed">
+                                        <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
+                                    </a>
+                                    <a className="list-group-item" target="_blank" href="https://medium.com/@joycelin.codes/always-be-coding-regional-differences-in-programming-languages-9957785dd4e6#.76xivr9nh">
+                                        <i className="fa fa-medium fa-fw" aria-hidden="true" />&nbsp; Medium blog
+                                    </a>
+                                    <a className="list-group-item" target="_blank" href="http://indeed.meowsergirl.com/">
+                                        <i className="fa fa-bar-chart-o fa-fw" aria-hidden="true" />&nbsp; Check it out
+                                    </a>
+                                </div>
+                            </div>
+                        </Toggle>
+                    </div>
+                    <div className="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <a target="_blank" href="http://indeed.meowsergirl.com/">
+                            <img className="img-responsive" src={regional} alt="screenshot" />
+                        </a>
+                    </div>
+                </div>
+          </div>
+      </div>
 
         {/* CONTACT ===================================================*/}
 
