@@ -15,3 +15,9 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
+
+// TODO: login / registration with server.js
+// TODO: components for project modules
+// TODO: creating navigation
+// TODO: in app.js, use pushstate() to update url, and then display components based on url
+

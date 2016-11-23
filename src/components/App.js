@@ -12,6 +12,7 @@ import lights from '../img/lights.png';
 import walking from '../img/walking.png';
 import nitrousgiphy from '../img/nitrousgiphy.gif';
 import regional from '../img/radar.png';
+import catfit from '../img/pushup2.png';
 // import nitrous from '../img/nitrous.png';
 
 
@@ -132,7 +133,7 @@ class App extends Component {
             {/*</div>*/}
         {/*</div>*/}
 
-        <div id="nitrous" className="section content-section-a">
+        <div id="nitrous" className="section content-section-a cf">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
@@ -160,7 +161,7 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="christopherWalken" className="section content-section-b">
+        <div id="christopherWalken" className="section content-section-b cf">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-sm-6">
@@ -197,7 +198,7 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="'outsidelights" className="section content-section-a">
+        <div id="'outsidelights" className="section content-section-a cf">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
@@ -228,7 +229,7 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="caturl" className="section content-section-b">
+        <div id="caturl" className="section content-section-b cf">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-sm-6">
@@ -262,7 +263,7 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="hackerrank" className="section content-section-a">
+        <div id="hackerrank" className="section content-section-a cf">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
@@ -297,7 +298,7 @@ class App extends Component {
             </div>
         </div>
 
-        <div id="regional" className="section content-section-b">
+        <div id="regional" className="section content-section-b cf">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-sm-6">
@@ -330,7 +331,41 @@ class App extends Component {
                     </div>
                 </div>
           </div>
-      </div>
+        </div>
+
+          <div id="catfit" className="section content-section-a cf">
+              <div className="container">
+                  <div className="row">
+                      <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                          <hr className="section-heading-spacer" />
+                          <div className="clearfix"></div>
+                          <h2 className="section-heading">Fitness Generator</h2>
+                          <p className="lead">Generate workouts based on random choice, with an admin view to add, edit and delete exercises, using RESTful APIs.</p>
+                          <Toggle>
+                              <div className="hackerrank">
+                                  <p className="lead">React-Chart.js, Redis, JavaScript, JQuery, Ajax, HTML5, CSS3, Digital Ocean</p>
+                                  <div className="list-group">
+                                      <a className="list-group-item" target="_blank" href="https://github.com/loopDelicious/feline-good">
+                                          <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
+                                      </a>
+                                      <a className="list-group-item" target="_blank" href="https://medium.com/@joycelin.codes/feline-good-a-crud-fitness-app-623d15bd5775#.uztvmpbrn">
+                                          <i className="fa fa-medium fa-fw" aria-hidden="true" />&nbsp; Medium blog
+                                      </a>
+                                      <a className="list-group-item" target="_blank" href="http://catfit.meowsergirl.com/">
+                                          <i className="fa fa-bar-chart-o fa-fw" aria-hidden="true" />&nbsp; Check it out
+                                      </a>
+                                  </div>
+                              </div>
+                          </Toggle>
+                      </div>
+                      <div className="col-lg-5 col-sm-pull-6  col-sm-6">
+                          <a target="_blank" href="http://catfit.meowsergirl.com/">
+                              <img className="img-responsive" src={catfit} alt="app" />
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
 
         {/* CONTACT ===================================================*/}
 

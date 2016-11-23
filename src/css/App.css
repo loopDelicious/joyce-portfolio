@@ -99,6 +99,10 @@
     margin: 0;
 }
 
+.content-section-a,
+.content-section-b {
+    /*height: 100px;*/
+}
 
 /* CONTACT section **************/
 
