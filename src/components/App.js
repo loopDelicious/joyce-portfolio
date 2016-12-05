@@ -6,13 +6,13 @@ import Toggle from '../components/toggle.js';
 
 import tigerhat from '../img/tigerhat.png';
 import robot from '../img/robot.png';
-import hackerrank from '../img/hackerrank.png';
-import caturl from '../img/catURL.png';
-import lights from '../img/lights.png';
+import hackerrank from '../img/hackerrank-desktop.png';
+import caturl from '../img/catURL-laptop.png';
+import lights from '../img/lights-tablet.png';
 import walking from '../img/walking.png';
 import nitrousgiphy from '../img/nitrousgiphy.gif';
-import regional from '../img/radar.png';
-import catfit from '../img/pushup2.png';
+import regional from '../img/radar-desktop.png';
+import catfit from '../img/pushup-tablet.png';
 // import nitrous from '../img/nitrous.png';
 
 
