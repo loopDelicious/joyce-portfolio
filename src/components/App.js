@@ -9,7 +9,7 @@ import robot from '../img/robot.png';
 import hackerrank from '../img/hackerrank-desktop.png';
 import caturl from '../img/catURL-laptop.png';
 import lights from '../img/lights-tablet.png';
-import walking from '../img/walking.png';
+import walking from '../img/walking-desktop.png';
 import nitrousgiphy from '../img/nitrousgiphy.gif';
 import regional from '../img/radar-desktop.png';
 import catfit from '../img/pushup-tablet.png';
@@ -340,10 +340,10 @@ class App extends Component {
                           <hr className="section-heading-spacer" />
                           <div className="clearfix"></div>
                           <h2 className="section-heading">Fitness Generator</h2>
-                          <p className="lead">Generate workouts based on random choice, with an admin view to add, edit and delete exercises, using RESTful APIs.</p>
+                          <p className="lead">Generate workouts based on random selection from MongoDB, with an admin view to add, edit and delete exercises, using RESTful APIs.</p>
                           <Toggle>
                               <div className="hackerrank">
-                                  <p className="lead">React-Chart.js, Redis, JavaScript, JQuery, Ajax, HTML5, CSS3, Digital Ocean</p>
+                                  <p className="lead">React-Chart.js, MongoDB, Redis, JavaScript, JQuery, Ajax, HTML5, CSS3, Digital Ocean</p>
                                   <div className="list-group">
                                       <a className="list-group-item" target="_blank" href="https://github.com/loopDelicious/feline-good">
                                           <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
