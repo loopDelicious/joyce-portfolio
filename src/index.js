@@ -10,6 +10,8 @@ import './css/index.css';
 import './css/buttons.css';
 import './css/navigation.css';
 import './css/App.css';
+import './css/portfolio.css';
+import './css/login.css';
 
 ReactDOM.render(
   <App />,

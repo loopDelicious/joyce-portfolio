@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Navbar, NavItem, Nav} from 'react-bootstrap';
 
 class Navigation extends Component {
+
     render() {
 
         return (
@@ -19,6 +20,7 @@ class Navigation extends Component {
                         <NavItem eventKey={2} href="#tech">Tech</NavItem>
                         <NavItem eventKey={3} href="#projects">Projects</NavItem>
                         <NavItem eventKey={4} href="#contact">Contact</NavItem>
+                        <NavItem eventKey={5} href="/login" className="login-nav" onClick={this.props.login}>Log In</NavItem>
                     </Nav>
                 </Navbar.Collapse>
 
