@@ -6,9 +6,7 @@ To dev:
 
 Deployed on http://meowsergirl.com/
 
-To update deployment using NGINX and Digital Ocean, navigate to remote server, pull latest repo, and build:
+To update deployment use npm custom script:
 
-    `# git pull`
-    `# npm run build`
-    
+    `# npm run deploy`
     
