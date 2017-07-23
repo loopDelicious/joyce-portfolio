@@ -11,6 +11,7 @@ import walking from '../img/walking-desktop.png';
 import nitrousgiphy from '../img/nitrousgiphy.gif';
 import regional from '../img/radar-desktop.png';
 import catfit from '../img/pushup-tablet.png';
+import os from '../img/zoom.gif';
 // import nitrous from '../img/nitrous.png';
 
 class Portfolio extends Component {
@@ -361,6 +362,40 @@ class Portfolio extends Component {
                     </div>
                 </div>
 
+                <div id="operatingSystem" className="section content-section-b cf">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-5 col-sm-6">
+                                <hr className="section-heading-spacer" />
+                                <div className="clearfix"></div>
+                                <h2 className="section-heading">Evolution of Web Server Operating Systems</h2>
+                                <p className="lead">Data visualization using React and D3 to illustrate web server operating systems by lineage and market share.</p>
+                                <Toggle>
+                                    <div className="os">
+                                        <p className="lead">Developed as a data illustration for a Medium blog post, and deployed on Digital Ocean using Nginx.</p>
+                                        <p className="lead">React, D3, JavaScript, HTML5, CSS3, Digital Ocean</p>
+                                        <div className="list-group">
+                                            <a className="list-group-item" target="_blank" href="https://github.com/loopDelicious/operating-systems">
+                                                <i className="fa fa-github fa-fw" aria-hidden="true" />&nbsp; GitHub
+                                            </a>
+                                            <a className="list-group-item" target="_blank" href="https://medium.com/@joycelin.codes/evolution-of-web-server-operating-systems-ba1cf1c1e3d8">
+                                                <i className="fa fa-medium fa-fw" aria-hidden="true" />&nbsp; Medium blog
+                                            </a>
+                                            <a className="list-group-item" target="_blank" href="http://os.meowsergirl.com/">
+                                                <i className="fa fa-bar-chart-o fa-fw" aria-hidden="true" />&nbsp; Check it out
+                                            </a>
+                                        </div>
+                                    </div>
+                                </Toggle>
+                            </div>
+                            <div className="col-lg-5 col-lg-offset-2 col-sm-6">
+                                <a target="_blank" href="https://os.meowsergirl.com/">
+                                    <img className="img-responsive" src={os} alt="screenshot" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/* CONTACT ===================================================*/}
 
                 <div id="contact" className="section banner">
