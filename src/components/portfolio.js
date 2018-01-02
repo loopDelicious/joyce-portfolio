@@ -417,9 +417,10 @@ class Portfolio extends Component {
                                 <a target="_blank" href="http://blog.getpostman.com/2017/10/03/send-asynchronous-requests-with-postmans-pm-api/"><p className="tech2">Send asynchronous requests</p></a>
                                 <a target="_blank" href="http://blog.getpostman.com/2017/09/01/write-to-your-local-file-system-using-a-postman-collection/"><p className="tech2">Write to your local file system</p></a>
                                 <a target="_blank" href="http://blog.getpostman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"><p className="tech2">Integrate API tests with Postman, Newman, and Travis CI</p></a>
+                                <a target="_blank" href="http://www.devopsdigest.com/crisis-management-what-should-you-do-when-things-go-wrong"><p className="tech2">What should you do when things go wrong?</p></a>
+                                <a target="_blank" href="https://www.itproportal.com/features/eight-habits-of-effective-api-developers/"><p className="tech2">Eight habits of effective API developers</p></a>
                                 <a target="_blank" href="http://blog.getpostman.com/2017/06/23/check-for-broken-links-on-your-website-using-a-postman-collection/"><p className="tech2">Check for broken links using recursion</p></a>
                                 <a target="_blank" href="http://blog.getpostman.com/2017/05/27/not-your-grandmas-postman/"><p className="tech2">Not your grandma's Postman</p></a>
-                                <a target="_blank" href=""><p className="tech2">S</p></a>
                                 <a target="_blank" href="https://medium.com/@joycelin.codes/quickstart-for-react-and-webpack-in-8-minutes-or-less-eb736da7480b"><p className="tech2">Tutorial for React and Webpack</p></a><br />
                             </div>
                             <div className="col-lg-5 col-sm-pull-6 col-sm-6">
