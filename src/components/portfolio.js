@@ -4,6 +4,7 @@ import Toggle from '../components/toggle.js';
 
 import tigerhat from '../img/tigerhat.png';
 import robot from '../img/robot.png';
+import pen from '../img/pen.png';
 import hackerrank from '../img/hackerrank-desktop.png';
 import caturl from '../img/catURL-laptop.png';
 import lights from '../img/lights-tablet.png';
@@ -396,6 +397,41 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </div>
+
+                {/* CONTENT ===================================================*/}
+
+                <div id="content" className="section">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                                <div className="clearfix"></div>
+                                <h2 className="section-heading tech3">  Content<br /></h2>
+                                <span className="tech">blog, tutorials, and demos</span><br />
+                                <a target="_blank" href="https://medium.com/@joycelin.codes"><p className="tech2">joycelin codes on Medium</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/author/joyce/"><p className="tech2">Developer Evangelist for Postman</p></a>
+                                <a target="_blank" href="https://www.getpostman.com/docs"><p className="tech2">Postman Documentation for Developer Tools</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/2017/12/29/10-tips-for-working-with-postman-variables/"><p className="tech2">10 tips for working with Postman variables</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/"><p className="tech2">Keep it DRY with collection elements</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/"><p className="tech2">Schedule an Arduino to water my plants</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/2017/10/25/writing-tests-in-postman/"><p className="tech2">Writing tests in Postman</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/2017/10/03/send-asynchronous-requests-with-postmans-pm-api/"><p className="tech2">Send asynchronous requests</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/2017/09/01/write-to-your-local-file-system-using-a-postman-collection/"><p className="tech2">Write to your local file system</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"><p className="tech2">Integrate API tests with Postman, Newman, and Travis CI</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/2017/06/23/check-for-broken-links-on-your-website-using-a-postman-collection/"><p className="tech2">Check for broken links using recursion</p></a>
+                                <a target="_blank" href="http://blog.getpostman.com/2017/05/27/not-your-grandmas-postman/"><p className="tech2">Not your grandma's Postman</p></a>
+                                <a target="_blank" href=""><p className="tech2">S</p></a>
+                                <a target="_blank" href="https://medium.com/@joycelin.codes/quickstart-for-react-and-webpack-in-8-minutes-or-less-eb736da7480b"><p className="tech2">Tutorial for React and Webpack</p></a><br />
+                            </div>
+                            <div className="col-lg-5 col-sm-pull-6 col-sm-6">
+                                {/*<div className="pen-icon">*/}
+                                    {/*<i className="fa fa-pencil-square-o fa-5x fa-fw" />*/}
+                                {/*</div>*/}
+                                <img className="img-responsive img-pen" src={pen} alt="pen" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 {/* CONTACT ===================================================*/}
 
                 <div id="contact" className="section banner">

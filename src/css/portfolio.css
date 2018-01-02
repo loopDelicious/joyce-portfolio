@@ -112,6 +112,32 @@
     /*height: 100px;*/
 }
 
+/* CONTENT section **************/
+
+#content {
+    background-color: var(--light-text);
+    background-size: cover;
+    padding: 0 0 0 50px;
+}
+
+#content a {
+    color: var(--main-color);
+}
+
+#content a:hover, a:active {
+    color: var(--secondary-color);
+}
+
+.img-pen {
+    padding: 60px;
+}
+
+/*.pen-icon {*/
+    /*padding: 60px;*/
+    /*height: 300px;*/
+    /*text-align: center;*/
+/*}*/
+
 /* CONTACT section **************/
 
 /*.projects-intro {*/
